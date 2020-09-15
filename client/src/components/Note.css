@@ -49,3 +49,8 @@ ul li {
     margin: 1em;
     float: left;
 }
+
+.plus {
+    position: relative;
+    top: 35%;
+}
