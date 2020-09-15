@@ -1,0 +1,45 @@
+.NoteEdit {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 30%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+
+input {
+    display: block;
+    margin: 16px auto;
+}
+
+h2 {
+    color: black;
+}
+
+textarea {
+    width: 80%;
+    resize: none;
+}
+
+button {
+    display: inline;
+    text-align: center;
+    margin: 5px 10px;
+    padding: 5px;
+}
+
+.Content {
+    height: 100px;
+}
+
+@media (min-width: 600px) {
+    .NoteEdit {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}
